@@ -23,5 +23,5 @@ Resources:
             Statement:
               - Effect: Allow
                 Action:
-                  - s3:*
+                  - s3:GetObject
                 Resource: !Sub arn:aws:s3:::www.abc-croma-aws.com/*
